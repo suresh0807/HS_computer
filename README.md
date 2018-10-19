@@ -29,11 +29,17 @@ Example: ./compute-auto.sh 2 2 1 HfO2 4 HF 1 HfF4 2 H2O 5 3 1.0 0.1 1
 3. Its contents should be as per the output from phonopy code when 'phonopy -t -p mesh.conf' is executed as follows..
 
      Line 1: #Total energy
+     
      Line 2: #Temp #Free energy [KJ/mol] #Entropy [J/K/mol] #Heat capacity [J/K/mol] #Enthalpy [Kj/mol]
+     
      Line 3: ...
+     
      Line 4: ...
+     
      .
+     
      .
+     
      .
     
 4. Run the './freeh2table.sh' script without argument to convert the output of freeh program of Turbomole suite 
